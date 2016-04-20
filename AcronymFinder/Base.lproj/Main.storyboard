@@ -32,14 +32,14 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AcronymFinder.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="SWo-lt-IJU">
-                                <rect key="frame" x="231" y="105" width="140" height="140"/>
+                                <rect key="frame" x="231" y="115" width="140" height="140"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="140" id="6cd-q7-TZC"/>
                                     <constraint firstAttribute="width" constant="140" id="9G1-J1-Txm"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ACRONYM FINDER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ecq-ms-feH">
-                                <rect key="frame" x="198" y="258" width="207" height="21"/>
+                                <rect key="frame" x="198" y="268" width="207" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="G7E-wi-dkz"/>
                                     <constraint firstAttribute="width" constant="207" id="OFa-vo-5eY"/>
@@ -53,7 +53,7 @@
                         <constraints>
                             <constraint firstItem="SWo-lt-IJU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="1" id="1X6-AK-ep2"/>
                             <constraint firstItem="hjU-nq-344" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="75" id="IPN-GJ-EIP"/>
-                            <constraint firstItem="hjU-nq-344" firstAttribute="top" secondItem="ecq-ms-feH" secondAttribute="bottom" constant="81" id="MKU-uO-pCk"/>
+                            <constraint firstItem="hjU-nq-344" firstAttribute="top" secondItem="ecq-ms-feH" secondAttribute="bottom" constant="71" id="MKU-uO-pCk"/>
                             <constraint firstItem="hjU-nq-344" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="guF-82-HEH"/>
                             <constraint firstItem="ecq-ms-feH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="1.5" id="igS-TW-fY8"/>
                             <constraint firstItem="ecq-ms-feH" firstAttribute="top" secondItem="SWo-lt-IJU" secondAttribute="bottom" constant="13" id="wj7-lA-KyQ"/>

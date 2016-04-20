@@ -98,7 +98,7 @@ static NSString * const BaseURLString = @"http://www.nactem.ac.uk/software/acrom
         }failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
             NSHTTPURLResponse *response = error.userInfo[AFNetworkingOperationFailingURLResponseErrorKey];
             NSInteger statusCode = response.statusCode;
-            NSLog(@"Failure Block=%ld",statusCode);
+            NSLog(@"Failure Block=%ld",(long)statusCode);
             [self stopProgressIndicator];
         }];
     }
