@@ -143,6 +143,7 @@ static NSString * const BaseURLString = @"http://www.nactem.ac.uk/software/acrom
 }
 
 -(IBAction)dismissVwController:(id)sender{
+    [self.searchBText resignFirstResponder];
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
